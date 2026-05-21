@@ -12,7 +12,7 @@ export async function publishArticle() {
 
   // const mediaId = await uploadMedia(imagePath);
 
-  await humanDelay();
+  // await humanDelay();
 
   // await createPost(article, [mediaId]);
   await createPost(article, []);
