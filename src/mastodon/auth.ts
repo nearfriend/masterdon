@@ -61,6 +61,7 @@ export async function getAccessToken() {
     fs.writeFileSync(APP_FILE, JSON.stringify(app, null, 2));
   }
 
+  console.log("Registered app:", app);
   const token = await getToken(app.client_id, app.client_secret);
   // store token alongside app for reuse
   app.access_token = token;
