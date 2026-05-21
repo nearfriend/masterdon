@@ -4,9 +4,9 @@ import { engage } from "./engager";
 
 export async function startBot() {
   // 2–3 posts per day (not fixed intervals)
-  // cron.schedule("*/4 * * * *", async () => {
-  await publishArticle();
-  // });
+  cron.schedule("*/4 * * * *", async () => {
+    await publishArticle();
+  });
 
   // engagement loop
   // cron.schedule("*/5 * * * *", async () => {
