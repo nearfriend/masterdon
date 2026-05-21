@@ -1,0 +1,17 @@
+# Mastodon / OpenAI configuration — replace placeholders with real values
+MASTODON_API_URL=https://mastodon.social
+
+# If you prefer email/password login, set these. Do NOT share these publicly.
+MASTODON_EMAIL=yourgmail
+MASTODON_PASSWORD=yourpassword
+
+# If you have a token you can optionally set it; leave empty to use email/password flow
+MASTODON_ACCESS_TOKEN=
+
+# OpenAI API key (required)
+OPENAI_API_KEY=your-openai-key
+
+# Temporary directory for generated images
+TMP_DIR=./tmp
+
+NODE_ENV=development

@@ -1,0 +1,18 @@
+{
+  "id": "8695140",
+  "name": "mastodon-it-bot",
+  "website": "https://mastodon.social",
+  "scopes": [
+    "read",
+    "write",
+    "follow"
+  ],
+  "redirect_uris": [
+    "urn:ietf:wg:oauth:2.0:oob"
+  ],
+  "vapid_key": "BCk-QqERU0q-CfYZjcuB6lnyyOYfJ2AifKqfeGIm7Z-HiTU5T9eTG5GxVA0_OH5mMlI4UkkDTpaZwozy0TzdZ2M=",
+  "redirect_uri": "urn:ietf:wg:oauth:2.0:oob",
+  "client_id": "bUJx1r9gpX-ibbf9jMdBt4pTrGWn2RZxIQ4NviNpAjM",
+  "client_secret": "iNh5aEvMtrvrTOWkeWrm3W529nTLW1yeh5ipUwUo8AU",
+  "client_secret_expires_at": 0
+}
